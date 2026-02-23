@@ -1,7 +1,8 @@
 #include <iostream>
 
 struct Node {
-    std::string name;
+    std::string name; // this is our data
+    // we could have more data here
     Node * next;
 };
 
